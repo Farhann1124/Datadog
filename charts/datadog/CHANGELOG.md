@@ -1,5 +1,10 @@
 # Datadog changelog
 
+## 3.54.0
+
+* Add `datadog.kubelet.core_check` option to configure whether the kubelet core check should be used
+  Note: this requires agent/cluster agent version 7.52.0+
+
 ## 3.53.3
 
 * Update `fips.image.tag` to `1.1.1`
